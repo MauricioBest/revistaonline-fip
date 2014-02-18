@@ -19,7 +19,7 @@
 		<dependency>
 			<groupId>br.com.caelum</groupId>
 			<artifactId>vraptor</artifactId>
-			<version>3.5.3</version>
+			<version>3.5.0.</version>
 		</dependency>
 
 		<dependency>
@@ -49,6 +49,11 @@
 		<!--<dependency> <groupId>br.com.caelum.vraptor</groupId> <artifactId>vraptor-i18n</artifactId> 
 			<version>1.0.5</version> <scope>compile</scope> </dependency> -->
 
+<!-- 		<dependency>
+			<groupId>br.com.fip.gati</groupId>
+			<artifactId>revistaonline</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency> -->
 	</dependencies>
 	<build>
 		<finalName>revistaonline</finalName>
