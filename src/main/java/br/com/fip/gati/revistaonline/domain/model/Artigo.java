@@ -2,7 +2,7 @@ package br.com.fip.gati.revistaonline.domain.model;
 
 import javax.validation.constraints.NotNull;
 
-@javax.persistence.Entity(name="Artigo")
+@javax.persistence.Entity(name="artigo")
 public class Artigo {
 	@NotNull
 	private String titulo;
