@@ -6,13 +6,20 @@ import javax.validation.constraints.NotNull;
 public class Artigo {
 	@NotNull
 	private String titulo;
+	@NotNull
 	private String subTitulo;
+	@NotNull
 	private String resumo;
+	@NotNull
 	private String keyWord;
+	@NotNull
 	private String autor;
-	
+	@NotNull
 	private String Secao;
+	@NotNull
 	private String idioma;
+	
+	
 	private String condicoesParaSubmissão;
 	public String getTitulo() {
 		return titulo;
