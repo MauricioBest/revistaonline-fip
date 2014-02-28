@@ -13,6 +13,7 @@ public class Artigo {
 	private String titulo;
 	
 	private String subTitulo;
+	
 	@NotNull
 	private String resumo;
 	@NotNull
@@ -28,12 +29,12 @@ public class Artigo {
 	
 	private String geoEspacial;
 	
-	private String CronológicaOuHistórica;
+	private String cronologicaOuHistorica;
 	
-	private String característicasDaAmostragemDaPesquisa;
+	private String caracteristicasDaAmostragemDaPesquisa;
 	
 	
-	private String condicoesParaSubmissão;
+	private String condicoesParaSubmissao;
 	
 	private String agencias;
 	public String getTitulo() {
@@ -73,11 +74,11 @@ public class Artigo {
 	public void setIdioma(String idioma) {
 		this.idioma = idioma;
 	}
-	public String getCondicoesParaSubmissão() {
-		return condicoesParaSubmissão;
+	public String getCondicoesParaSubmissao() {
+		return condicoesParaSubmissao;
 	}
-	public void setCondicoesParaSubmissão(String condicoesParaSubmissão) {
-		this.condicoesParaSubmissão = condicoesParaSubmissão;
+	public void setCondicoesParaSubmissão(String condicoesParaSubmissao) {
+		this.condicoesParaSubmissao = condicoesParaSubmissao;
 	}
 	
 	
