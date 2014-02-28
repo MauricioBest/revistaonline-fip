@@ -20,7 +20,7 @@ public class Autor {
 	private String uRL;
 	
 	@NotNull
-	private String Instituicao;
+	private String instituicao;
 	private String pais;
 	
 	private String resumoDaBiografia;
