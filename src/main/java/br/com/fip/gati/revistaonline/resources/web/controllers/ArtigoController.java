@@ -22,7 +22,7 @@ public class ArtigoController {
 		this.result = result;
 	}
 	
-	@Path("/cadastro")
+	@Path("/submissao")
 	public void formulario() {
 		
 	}
