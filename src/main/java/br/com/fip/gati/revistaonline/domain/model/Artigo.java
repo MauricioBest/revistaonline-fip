@@ -1,26 +1,25 @@
 package br.com.fip.gati.revistaonline.domain.model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.validation.constraints.NotNull;
 
 @javax.persistence.Entity(name="artigo")
-public class Artigo {
+public class Artigo extends Entity {
 	
-	private String codigo;
+	
 	
 	@NotNull
 	private String titulo;
-	
-	private String subTitulo;
 	
 	@NotNull
 	private String resumo;
 	@NotNull
 	private String keyWord;
 	@NotNull
-	private ArrayList<Autor> autores;
-	@NotNull
+	private List<Autor> autores;
+	//notNull
 	private String Secao;
 	@NotNull
 	private String idioma;
@@ -43,12 +42,7 @@ public class Artigo {
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
-	public String getSubTitulo() {
-		return subTitulo;
-	}
-	public void setSubTitulo(String subTitulo) {
-		this.subTitulo = subTitulo;
-	}
+	
 	public String getResumo() {
 		return resumo;
 	}

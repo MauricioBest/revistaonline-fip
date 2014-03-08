@@ -29,13 +29,8 @@ public class ArtigoController {
 	
 	public void salvar(Artigo artigo) {
 		//EFETUAR VALIDAÇÕES
-//		artigo.setAlterarSenhaProximoAcesso(true);
-//		usuario.setDtaCadastro(new Date());
-//		usuario.setDtaUltimoAcesso(new Date());
-//		usuario.setStatus("BLOQUEADO");
-//		usuario.setTentativasLogon(0);
-//		this.artigoRepositorio.save(artigo);
-//		result.redirectTo(this).formulario();
+		this.artigoRepositorio.save(artigo);
+		result.redirectTo(this).formulario();
 	}
 	
 	public void atualizar(Artigo artigo) {

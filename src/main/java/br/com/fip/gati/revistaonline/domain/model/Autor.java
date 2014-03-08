@@ -5,7 +5,7 @@ import javax.validation.constraints.Size;
 
 
 @javax.persistence.Entity(name="autor")
-public class Autor {
+public class Autor extends Entity {
 	
 	@NotNull
 	private String preNome;

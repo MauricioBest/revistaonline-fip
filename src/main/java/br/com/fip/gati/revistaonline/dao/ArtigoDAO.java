@@ -15,14 +15,14 @@ public class ArtigoDAO extends GenericDAO<Artigo> implements ArtigoRepositorio {
 		super(Artigo.class, session);
 	}
 
-	public Artigo getArtigo(String titulo, String resumo) {
-		if (titulo == null || resumo == null) {
-			return null;
-		}
-		
-		return (Artigo) getCurrentSession().createCriteria(Artigo.class)
-				.add(Restrictions.eq("titulo", titulo))
-				.add(Restrictions.eq("resumo", resumo))
-				.uniqueResult();
-	}
+//	public Artigo getArtigo(String titulo, String resumo) {
+//		if (titulo == null || resumo == null) {
+//			return null;
+//		}
+//		
+//		return (Artigo) getCurrentSession().createCriteria(Artigo.class)
+//				.add(Restrictions.eq("titulo", titulo))
+//				.add(Restrictions.eq("resumo", resumo))
+//				.uniqueResult();
+//	}
 }

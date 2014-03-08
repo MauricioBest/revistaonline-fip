@@ -22,7 +22,7 @@
 <div class="row" >
 	<div class="form-group col-lg-3" >
 		<label>E-mail:*</label>
-		<input type="text" class="form-control" name="autor.email" placeholder="Email" value="${autor.email}" />
+		<input type="text" class="form-control" name="autor.email" placeholder="E-mail" value="${autor.email}" />
 	</div>
 </div>
 
