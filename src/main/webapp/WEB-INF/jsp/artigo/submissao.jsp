@@ -29,7 +29,7 @@
 <div class="row" >
 	<div class="form-group col-lg-3" >
 		<label>Geo-espacial:</label>
-		<input type="text" class="form-control" name="artigo.geoEspacial" placeholder="GeoEspacial" value="${atigo.geoEspacial}" />
+		<input type="text" class="form-control" name="artigo.geoEspacial" placeholder="GeoEspacial" value="${artigo.geoEspacial}" />
 	</div>
 </div>
 
@@ -44,6 +44,20 @@
 	<div class="form-group col-lg-3" >
 		<label>Características da amostragem da pesquisa:</label>
 		<input type="text" class="form-control" name="artigo.caracteristicasDaAmostragemDaPesquisa" placeholder="CaracteristicasDaAmostragemDaPesquisa" value="${artigo.caracteristicasDaAmostragemDaPesquisa}" />
+	</div>
+</div>
+
+<div class="row" >
+	<div class="form-group col-lg-3" >
+		<label>Seção:</label>
+		<input type="text" class="form-control" name="artigo.secao" placeholder="Secao" value="${artigo.secao}" />
+	</div>
+</div>
+
+<div class="row" >
+	<div class="form-group col-lg-3" >
+		<label>Condições para Submissão:</label>
+		<input type="text" class="form-control" name="artigo.condicoesParaSubmissao" placeholder="CondicoesParaSubmissao" value="${artigo.condicoesParaSubmissao}" />
 	</div>
 </div>
 

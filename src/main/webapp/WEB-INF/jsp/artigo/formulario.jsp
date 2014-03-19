@@ -1,5 +1,5 @@
 <div>
-	<form action="${linkTo[ArtigoController].salvar}">
+	<form action="${linkTo[ArtigoController].salvar}" method="POST">
 		<fieldset>
 			<legend>Cadastrar Artigo</legend>
 			<jsp:include page="submissao.jsp"/>
